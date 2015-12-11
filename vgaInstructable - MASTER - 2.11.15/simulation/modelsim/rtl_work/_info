@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dM:\vgaInstructable - 2.8.15 - mess with always blocks\simulation\modelsim
+vsimonSaysVGA
+!i10b 1
+!s100 Cc[=R2gW3SFiG@fSfEzPA0
+I>RD>gB][<hMdgoeVZOI2j2
+V2DY3HSg4VXokhG[;adPCT2
+Z1 dM:\vgaInstructable - 2.8.15 - mess with always blocks\simulation\modelsim
+w1449692831
+8M:/vgaInstructable - 2.8.15 - mess with always blocks/simonsaysvga.v
+FM:/vgaInstructable - 2.8.15 - mess with always blocks/simonsaysvga.v
+L0 1
+OV;L;10.1e;51
+r1
+!s85 0
+31
+!s108 1449693144.232000
+!s107 M:/vgaInstructable - 2.8.15 - mess with always blocks/simonsaysvga.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+M:/vgaInstructable - 2.8.15 - mess with always blocks|M:/vgaInstructable - 2.8.15 - mess with always blocks/simonsaysvga.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work {+incdir+M:/vgaInstructable - 2.8.15 - mess with always blocks} -O0
+nsimon@says@v@g@a

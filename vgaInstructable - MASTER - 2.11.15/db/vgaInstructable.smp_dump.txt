@@ -1,0 +1,62 @@
+
+State Machine - |simonSaysVGA|level
+Name level.101 level.100 level.011 level.010 level.001 level.000 
+level.000 0 0 0 0 0 0 
+level.001 0 0 0 0 1 1 
+level.010 0 0 0 1 0 1 
+level.011 0 0 1 0 0 1 
+level.100 0 1 0 0 0 1 
+level.101 1 0 0 0 0 1 
+
+State Machine - |simonSaysVGA|pattern0
+Name pattern0.0000 pattern0.1000 pattern0.0100 pattern0.0010 pattern0.0001 
+pattern0.0001 0 0 0 0 0 
+pattern0.0000 1 0 0 0 1 
+pattern0.0010 0 0 0 1 1 
+pattern0.0100 0 0 1 0 1 
+pattern0.1000 0 1 0 0 1 
+
+State Machine - |simonSaysVGA|pattern1
+Name pattern1.0000 pattern1.1000 pattern1.0100 pattern1.0010 pattern1.0001 
+pattern1.0010 0 0 0 0 0 
+pattern1.0001 0 0 0 1 1 
+pattern1.0000 1 0 0 1 0 
+pattern1.0100 0 0 1 1 0 
+pattern1.1000 0 1 0 1 0 
+
+State Machine - |simonSaysVGA|pattern2
+Name pattern2.0000 pattern2.1000 pattern2.0100 pattern2.0010 pattern2.0001 
+pattern2.0100 0 0 0 0 0 
+pattern2.0001 0 0 1 0 1 
+pattern2.0010 0 0 1 1 0 
+pattern2.0000 1 0 1 0 0 
+pattern2.1000 0 1 1 0 0 
+
+State Machine - |simonSaysVGA|pattern3
+Name pattern3.0000 pattern3.1000 pattern3.0100 pattern3.0010 pattern3.0001 
+pattern3.1000 0 0 0 0 0 
+pattern3.0001 0 1 0 0 1 
+pattern3.0010 0 1 0 1 0 
+pattern3.0100 0 1 1 0 0 
+pattern3.0000 1 1 0 0 0 
+
+State Machine - |simonSaysVGA|S
+Name S.WIN S.L3PB S.L3PG S.L3PY S.L3PR S.L3S S.L2PB S.L2PG S.L2PY S.L2PR S.L2S S.L1PB S.L1PG S.L1PY S.L1PR S.L1S S.START S.RESET 
+S.RESET 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+S.START 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+S.L1S 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+S.L1PR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+S.L1PY 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+S.L1PG 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+S.L1PB 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+S.L2S 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+S.L2PR 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+S.L2PY 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+S.L2PG 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+S.L2PB 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+S.L3S 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+S.L3PR 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+S.L3PY 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+S.L3PG 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+S.L3PB 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+S.WIN 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

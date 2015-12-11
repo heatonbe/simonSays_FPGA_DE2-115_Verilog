@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dM:\vgaInstructable - 2.8.15 - mess with always blocks\simulation\qsim
+vsimonSaysVGA
+Z1 !s100 0g9=Ro^7CIi:ASiO[koMM2
+Z2 IK51<]5o[^Sj^oX[lk?`[P1
+Z3 VeiiZ_;>d7_kG8>gbR`M8i2
+Z4 dM:\vgaInstructable - 2.8.15 - mess with always blocks\simulation\qsim
+Z5 w1449693469
+Z6 8vgaInstructable.vo
+Z7 FvgaInstructable.vo
+L0 32
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 !s90 -work|work|vgaInstructable.vo|
+Z10 o-work work -O0
+Z11 nsimon@says@v@g@a
+!i10b 1
+!s85 0
+Z12 !s108 1449693473.416000
+Z13 !s107 vgaInstructable.vo|
+!s101 -O0
+vsimonSaysVGA_vlg_check_tst
+!i10b 1
+Z14 !s100 GdzoDk:A[d=F`9jgkQGXj3
+Z15 I0cjfAWB]<@nF4>3LD4BV22
+Z16 V@2l8E41OhVOHJczkzCVcK2
+R4
+Z17 w1449693462
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 66
+R8
+r1
+!s85 0
+31
+Z20 !s108 1449693474.497000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+Z23 nsimon@says@v@g@a_vlg_check_tst
+vsimonSaysVGA_vlg_sample_tst
+!i10b 1
+Z24 !s100 9]<0>Toi34Y_aU_@VE^^h2
+Z25 IlX0Y3CG6:Le4B@4[in>Un2
+Z26 VM[RGBLDeQJ]EoQZ2iTLl@1
+R4
+R17
+R18
+R19
+L0 30
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 nsimon@says@v@g@a_vlg_sample_tst
+vsimonSaysVGA_vlg_vec_tst
+!i10b 1
+!s100 iR3F;JNZOHD4kK5MS2;8e3
+Imj5AL7GafD>^[e;0>ETk71
+Z28 Vf^0EleKZ?KF=>YfXJ08603
+R4
+R17
+R18
+R19
+Z29 L0 1127
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 nsimon@says@v@g@a_vlg_vec_tst
