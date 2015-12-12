@@ -1,2 +1,13 @@
 # simonSays_FPGA_DE2-115_Verilog
 Simon Says implemented on Altera DE2-115 board; Logic in Verilog through Quartus
+
+This is a take on the classic Simon Says game. The code was written in Verilog using both combinational and sequential logic. Altera DE2-115 board was used as the switches and buttons for the program. 
+
+The program includes a finite state machine, which allows the game to run without the user switching the levels. The game begins by turning on the one of the switches located on the board. When the player is ready to begin they can press the red button to initiate the start of the game. The program detects when the start is activated. Then the state transitions into Simon (indicated by S on the VGA display) and begins to show a pattern. Once Simon shows the pattern the state then becomes P, which is then the player's turn to recreate the pattern. If the player correctly inputs the right sequence the game will continue to the next level. There are three levels to be completed in the game. If the player completes all of the levels accurately then a check mark will be displayed indicating that they won.
+
+The display of the game was done using VGA. The internal clock on the DE2-115 board operates at a frequency of 50 MHz. The clock frequency was initiated to 25 MHz for the VGA. This acted as the clock divider, which was vital for the vsync, hsync and the pixels that created the graphics to be displayed on the screen. GUI was used to create the colored squares that are shown on the screen. To indicate when the colors are being selected a signal is sent and the color turns from a bright hue to a dim hue. A mux is used to check for the signal and determine whether bright would be on or not. Also the letter L and a number are displayed in the top corner allowing the player to see which level there are in. 
+
+Three other clocks where incorporated in the program. One is used for keeping time and two others are for the colorStore. Each of the buttons on the DE2-115 board is assigned a color. Whenever a button was pressed, the color assigned to that button was stored the four bit colorStore register. ColorStore then allowed the input value of the player to be compared to sequence that Simon displayed.
+The finite state machine begins in the reset state and moves to the next state, start when the switch is activated. Progressing forward through the states, the values of the clock, counters and colorStore are evaluated. The various states of the program have dependent values. The next state is based on this values. Once the game is won, the player can hit the reset switch to replay the game.
+
+
